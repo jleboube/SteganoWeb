@@ -1,0 +1,15 @@
+{
+  "name": "steganoweb",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SteganoWeb production-ready web app",
+  "scripts": {
+    "format": "npm run --workspaces format",
+    "lint": "npm run --workspaces lint",
+    "build": "npm run --workspaces build",
+    "test": "npm run --workspaces test"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
